@@ -1,0 +1,43 @@
+{
+  "name": "express-logger",
+  "version": "1.0.0",
+  "description": "Express winston and morgan both are wrapped as a util",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbagavathiraja/logger.git"
+  },
+  "author": "bagavathiraja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tbagavathiraja/logger/issues"
+  },
+  "keywords": [
+    "express",
+    "expressjs",
+    "logger",
+    "node log",
+    "express log",
+    "logger",
+    "log",
+    "async",
+    "wrap",
+    "debug",
+    "info",
+    "logging"
+  ],
+  "homepage": "https://github.com/tbagavathiraja/logger#readme",
+  "dependencies": {
+    "moment-timezone": "^0.5.23",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/moment-timezone": "^0.5.9",
+    "@types/morgan": "^1.7.35",
+    "@types/winston": "^2.4.4"
+  }
+}
